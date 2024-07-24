@@ -1,0 +1,13 @@
+#!/bin/bash 
+
+###########################
+#  Author :  Muhammad Usama
+#  Object :  Printing output on the screen using echo command
+#  Version : v1.0
+#  Date : 24-07-2024
+###########################
+
+echo "Hello world! Welcome to the bash scripting."
+
+echo "Keep learning!"
+

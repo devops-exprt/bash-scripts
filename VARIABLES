@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# In this script we will learn about Variables.
+# Variables are used to store values.
+# Variables names can be start with (A-Z) , (a-z) and _ (underscore).
+
+####################################
+#  Author : Muhammad Usama
+#  Objective : Variable Initialization and Variable printing
+#  Version : v1.0
+#  Date : 26-07-2024
+####################################
+
+Name='Muhammad Usama'  # Variable initialization
+
+readonly Name          # This command will lock Name variable value and we will not be able to change it.
+
+echo $Name             # Variable will always be called with $ symbol.
+
+# More about Variables
+
+First_name='Muhammad'
+
+Last_name='Usama'
+
+echo $First_name '' $Last_name
+
+# More about Variables
+
+Country='Pakistan'
+
+unset Country        # This command will empty the variable value if and only if Country variable is not readonly.
+
+echo $Country    # This will print empty value.

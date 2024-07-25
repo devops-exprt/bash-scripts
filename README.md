@@ -11,7 +11,7 @@ STEPS for writing effective Script!
 
 3- Write logic of the task
 
-4- set execute permission
+4- Set execute permission
 
 5- Analyze Results
 

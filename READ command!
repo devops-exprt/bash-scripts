@@ -1,0 +1,22 @@
+#!/bin/bash
+
+###############################
+#  Author : Muhammad Usama
+#  Objective : Taking user input via READ command 
+#  Version : v1.0
+#  Date : 25-07-2024
+##################################
+
+# METHOD 1
+
+echo "Enter your name : "
+read name
+echo " Your name is $name"
+
+# METHOD 2
+
+read -p "Enter your name : " name
+echo " Your name is $name"
+
+
+echo " Keep Learning "

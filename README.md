@@ -18,5 +18,7 @@ STEPS for writing effective Script!
 Topics/Commands to be covered!
 - ECHO command
 - READ command
+- VARIABLES
+  
 
 

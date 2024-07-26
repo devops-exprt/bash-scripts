@@ -1,0 +1,35 @@
+#!/bin/bash 
+
+###########################
+#  Author  :  Muhammad Usama
+#  Object  :  Printing output on the screen using echo command
+#  Version :  v1.0
+#  Date    :  27-07-2024
+###########################
+
+# In this script we will learn about positional parameters.
+# $0 - points the script file.
+# $1 to $9 - points parameters passed to the script.
+# $$ - show PID of current shell.
+# $# - counts total number of parameters passed.
+# $* - stores all passed parameters.
+# $? - stores previous commands status ( if 0 = previous command ran succcessful)
+
+echo $0
+echo $1
+echo $2
+echo $3
+echo $4
+echo $5
+echo $6
+echo $7
+echo $8
+echo $9
+
+echo "**************************"
+echo "Total number parameters passed $#"
+
+echo " Happy Learning "
+
+# Note: Run this script like  ./bashfile.sh 1 2 3 4 5 6 7 8 9   to analyze output.
+

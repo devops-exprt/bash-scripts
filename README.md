@@ -19,6 +19,6 @@ Topics/Commands to be covered!
 - ECHO command
 - READ command
 - VARIABLES
-  
+- POSITIONAL PARAMETERS
 
 

@@ -1,1 +1,31 @@
+#!/bin/bash 
 
+###########################
+#  Author :  Muhammad Usama
+#  Object :  storing values in Array 
+#  Version : v1.0
+#  Date    : 30-07-2024
+###########################
+
+# Array is used to store multiple in a single variable.
+# Indexing of an Array starts from 0,1,2,...n
+
+# METHOD 1
+
+echo "1st Method"
+fruit[0]='Apple'
+fruit[1]='Orange'
+fruit[2]='Mango'
+fruit[3]='Banana'
+fruit[4]='Strawberry'
+
+echo ${fruit[0]} ${fruit[1]} ${fruit[2]} ${fruit[3]} ${fruit[4]}
+
+# METHOD 2
+
+echo "2nd Method"
+fruit=( 'Apple' , 'Orange' , 'Mango' , 'Banana' , 'Strawberry' )
+for item in ${fruit[*]}
+do
+    echo $item
+done 

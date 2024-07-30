@@ -20,5 +20,6 @@ Topics/Commands to be covered!
 - READ command
 - VARIABLES
 - POSITIONAL PARAMETERS
+- ARRAY
 
 

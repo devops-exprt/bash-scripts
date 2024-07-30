@@ -24,7 +24,7 @@ echo ${fruit[0]} ${fruit[1]} ${fruit[2]} ${fruit[3]} ${fruit[4]}
 # METHOD 2
 
 echo "2nd Method"
-fruit=( 'Apple' , 'Orange' , 'Mango' , 'Banana' , 'Strawberry' )
+fruit=( 'Apple'  'Orange'  'Mango'  'Banana'  'Strawberry' )
 for item in ${fruit[*]}
 do
     echo $item

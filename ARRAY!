@@ -29,3 +29,6 @@ for item in ${fruit[*]}
 do
     echo $item
 done 
+
+
+echo " Keep Learning!"

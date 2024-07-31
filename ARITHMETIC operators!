@@ -42,4 +42,4 @@ num=2
 
 echo "$num to the power of 3 = $( echo 2^3 | bc )"
 
-echo " keep Learning!"
+echo "Keep Learning!"

@@ -1,1 +1,40 @@
+#!/bin/bash 
 
+###########################
+#  Author :  Muhammad Usama
+#  Object :  Understanding Arithmetic operators
+#  Version : v2.0
+#  Date   :   01-08-2024
+###########################
+
+# Addition of 2 or more numbers
+n1=4
+n2=7
+
+echo "n1 + n2 = " `expr $n1 + $n2`
+
+# Subtraction of 2 or more numbers
+n1=5
+n2=2
+
+echo "n1 - n2 = " `expr $n1 - $n2`
+
+# Multiplication of 2 or more numbers
+n1=2
+n2=2
+
+echo "n1 * n2 = " `expr $n1 \* $n2`
+
+# Division of 2 or more numbers
+n1=27
+n2=3
+
+echo "n1 / n2 = " `expr $n1 / $n2`
+
+# Modulus of 2 or more numbers
+n1=10
+n2=2
+
+echo "n1 % n2 = " `expr $n1 % $n2`
+
+echo "Keep Learning!"
